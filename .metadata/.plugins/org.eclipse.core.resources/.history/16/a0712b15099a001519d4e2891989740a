@@ -1,0 +1,25 @@
+package maxProfit;
+
+public class maxProfit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] cost = {5,10,20,3,40};
+		findProfit(cost);
+	}
+	public static int findProfit(int[] cost)
+	{
+		int max=Integer.MIN_VALUE, min=Integer.MAX_VALUE;
+		for(int i=0; i<cost.length; i++)
+		{
+			if(max<cost[i])
+				max = cost[i];
+			if(min > cost[i])
+				min = cost[i];
+		}
+		System.out.println(max+" "+min);
+		return max-min;
+	}
+
+}

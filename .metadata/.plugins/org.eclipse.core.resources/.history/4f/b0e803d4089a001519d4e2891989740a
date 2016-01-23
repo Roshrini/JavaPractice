@@ -1,0 +1,16 @@
+package maxProfit;
+
+public class maxProfit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] cost = {5,10,20,3,40};
+		findProfit(cost);
+	}
+	public static void findProfit(int[] cost)
+	{
+		
+	}
+
+}

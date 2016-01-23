@@ -1,0 +1,25 @@
+15:42:16 **** Build of configuration Debug for project firstC ****
+make all 
+Building file: ../src/firstC.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/firstC.d" -MT"src/firstC.d" -o "src/firstC.o" "../src/firstC.c"
+Finished building: ../src/firstC.c
+ 
+Building target: firstC
+Invoking: MacOS X C Linker
+gcc  -o "firstC"  ./src/firstC.o   
+Finished building target: firstC
+ 
+15:42:25 **** Incremental Build of configuration Debug for project firstC ****
+make all 
+make: Nothing to be done for `all'.
+15:45:06 **** Incremental Build of configuration Debug for project firstC ****
+make all 
+Building file: ../src/firstC.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/firstC.d" -MT"src/firstC.d" -o "src/firstC.o" "../src/firstC.c"
+../src/firstC.c:7:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^
+1 error generated.
+make: *** [src/firstC.o] Error 1
