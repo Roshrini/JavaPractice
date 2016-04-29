@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/Users/roshaninagmote/Documents/Database undergrad/project16/phase2/alexs/cs5530/mysql.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/roshaninagmote/Documents/Database undergrad/project16/phase2/akatsane/AndrewKatsanevas-phase2/src/mysql.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

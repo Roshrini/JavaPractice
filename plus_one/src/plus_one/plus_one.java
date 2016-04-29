@@ -1,10 +1,12 @@
 package plus_one;
 
+import java.util.ArrayList;
+
 public class plus_one {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] num={0,9,9,9};
+		int[] num={ 2, 5, 6, 8, 6, 1, 2, 4, 5 };
 		int[] result=plusOne(num);
 		for (int i=0;i<result.length;i++){
 		System.out.print(""+(result[i]));
@@ -37,5 +39,8 @@ public class plus_one {
 	 
 		return digits;
 	}
-
+	public ArrayList<Integer> plusOne(ArrayList<Integer> a) {
+		
+	return a;
+	}
 }

@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Stack;
 
 
@@ -30,6 +31,9 @@ public class validExpression {
 					n--;
 			}
 		//	System.out.println(n);
+			ArrayList<Integer> a = new ArrayList<Integer>();
+		//	int[] data = {10,20,30,40,50,60,71,80,90,91};
+			
 		}
 		return (n==0);
 	}

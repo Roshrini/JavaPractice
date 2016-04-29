@@ -24,8 +24,6 @@ public class wordBreak {
 	{
 		if(start == input.length())
 			return true;
-		
-		
 		for(String str : dict)
 		{
 			int len = str.length();
@@ -38,6 +36,22 @@ public class wordBreak {
 				return true;
 			}
 		}
+		return false;
+	}
+		
+	public static boolean wordBreakDP(String input, HashSet<String> dict)
+	{
+		if(input==null || input.isEmpty())
+			return true;
+		
+		boolean[] dp = new boolean[input.length()+1]; 
+		dp[0]=true;
+		
+		for(int i=0; i<input.length(); i++)
+		{
+			
+		}
+		
 		return false;
 	}
 

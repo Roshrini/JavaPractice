@@ -17,7 +17,9 @@ public class hashmap_sample {
 //      
 //   // check set values
 //   System.out.println("Set values: " + set);
-   
+	   String[] dates = new String[10];
+	   String[] newFormat = new String[dates.length];
+	   
    HashMap<Integer,Integer> m = new HashMap<Integer,Integer>();
   int[] nums = {1,2,3,4,5,2,3,4,8};
    boolean status=false;
@@ -39,6 +41,7 @@ public class hashmap_sample {
           
       }	  
   }
+
   HashMap<String,String> str = new HashMap<String,String>();
 		  str.put("deer","d2r");
 			str.put("deer","");
